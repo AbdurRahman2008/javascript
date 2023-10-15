@@ -1,15 +1,23 @@
-console.log("hello world from mjs file")
-
-let myNumber = 7;
 let myName = "Abdur Rahman";
-
-console.log(myNumber)
-console.log( myName)
+console.log(myName)
 
 
-myNumber = 40;
-myName = "Abdur Rahman bin Shoaib";
+console.log("Numbers are below")
 
-console.log(myNumber)
-console.log( myName)
+
+let myNum = 30;
+let myResult = myNum + 50 + 10 * 3;
+console.log(myResult)
+
+
+let myNum1 = 5;
+let myNum2 = 10;
+let myResult1 = myNum1 + myNum2;
+console.log(myResult1)
+
+let myNum3 = 6;
+let myResult2 = ++myNum3
+console.log(myResult2)
+
+
 
